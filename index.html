@@ -1,0 +1,411 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Yudonglin Zhang (张煜东霖)</title>
+  
+  <meta name="author" content="Yudonglin Zhang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <style>
+    /* === 样式设置 === */
+    /* 语言切换按钮 */
+    #lang-switch {
+      position: absolute; top: 20px; right: 20px;
+      padding: 5px 10px; border: 1px solid #333; background: white;
+      cursor: pointer; font-family: monospace; z-index: 100;
+    }
+    #lang-switch:hover { background: #eee; }
+    
+    /* 默认隐藏中文 */
+    .lang-cn { display: none; }
+
+    /* 字体与排版优化 */
+    body { font-family: 'Lato', Verdana, Helvetica, sans-serif; font-size: 14px; }
+    p { margin-bottom: 10px; line-height: 1.6; }
+    strong { color: #333; }
+    a { color: #1772d0; text-decoration: none; }
+    a:hover { color: #f09228; text-decoration: underline; }
+    
+    .heading { font-size: 22px; font-weight: bold; padding-bottom: 10px; color: #222; }
+    papertitle { font-weight: 700; font-size: 15px; color: #222; }
+    
+    /* 项目描述样式 */
+    .project-desc { font-size: 13px; color: #444; margin-top: 5px; }
+    .project-desc ul { padding-left: 15px; margin: 5px 0; }
+    
+    /* 标签样式 (用于 Work in Progress 等) */
+    .tag {
+        font-size: 11px;
+        background-color: #eee;
+        padding: 2px 5px;
+        border-radius: 3px;
+        color: #555;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 
+  <button id="lang-switch" onclick="toggleLanguage()">Switch to 中文</button>
+语言切换按钮 -->
+  <table style="width:100%;max-width:860px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        
+        <!-- ================= Bio (个人简介) ================= -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              
+              <!-- 英文 Bio -->
+              <div class="lang-en">
+                <p style="text-align:center">
+                  <span style="font-size: 28px; font-weight: bold;">Yudonglin Zhang</span>
+                </p>
+                <p>
+                  I am a Junior undergraduate student at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a>. 
+                  I am currently pursuing a dual degree in <strong>Mathemetics and Artificial Intelligence</strong>.
+                </p>
+                <p>
+                  I am fortunate to be a Research Intern at <strong><a href="https://mvig-rhos.com/">SJTU RHOS-MVIG Lab</strong></a>, where I am mentored by Prof. Yonglu Li.
+                  My research interests focus on <strong>Computer Vision, Multimodal Large Language Models (MLLMs), and AI for Science</strong>. My recent works mainly concentrates on action understanding.
+                </p>
+                <p>
+                  During my undergraduate studies, I have built a solid foundation in Mathematics (Analysis, Algebra, Differential Geometry) and CS/AI (Deep Learning, Algorithms).
+                </p>
+                <p>
+                  I plan to further my study abroad in 2027Fall and is looking for a summer or long-term internship this year. So please contact me if you can provide any available chance. 
+                </p>
+                <p>
+                  All my codes will be uploaded to github after downloaded from remote server and double-checked. If you are interested in any of them, you may contact me directly for access. 
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:rightoverthere@sjtu.edu.cn">Email</a> &nbsp/&nbsp
+                  <a href="https://scholar.google.com/citations?user=h6ZthqQAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                  <a href="#">GitHub</a>
+                </p>
+              </div>
+
+              <!-- 中文 Bio -->
+              <div class="lang-cn">
+                <p style="text-align:center">
+                  <span style="font-size: 28px; font-weight: bold;">张煜东霖</span>
+                </p>
+                <p>
+                  我是<a href="https://www.sjtu.edu.cn/">上海交通大学</a>的大三本科生，就读于<strong>数学与应用数学（强基计划）</strong>，目前正在修读<strong>数学与人工智能双学位</strong>。
+                </p>
+                <p>
+                  目前，我是 <strong>上海交通大学 </strong><a href="https://mvig-rhos.com/"> RHOS-MVIG 实验室</a>的科研实习生，跟随李永露老师以及组内师兄师姐进行一些科研见习。
+                  我的研究兴趣主要集中在 <strong>计算机视觉、多模态大语言模型 (MLLM)</strong> ，目前的工作主要聚焦于</strong>行为理解</strong>。
+                </p>
+                <p>
+                  我计划于2027 Fall出国深造，如有相关硕博机会，请务必联系我。同时，我也在寻找2026暑期实习，如有相应岗位，也请联系我。
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:rightoverthere@sjtu.edu.cn">邮箱</a> &nbsp/&nbsp
+                  <a href="https://scholar.google.com/citations?user=h6ZthqQAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                  <a href="#">GitHub</a>
+                </p>
+              </div>
+
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <!-- 确保 photo-zydl.jpg 存在 -->
+              <a href="images/photo-zydl.jpg"><img style="width:100%;max-width:100%;border-radius:50%" alt="profile photo" src="images/photo-zydl.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <!-- ================= Research (科研论文) ================= -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <div class="lang-en"><heading>Research</heading></div>
+              <div class="lang-cn"><heading>科研经历</heading></div>
+              <div class="lang-en"><p>Representative papers and ongoing works.</p></div>
+              <div class="lang-cn"><p>代表性论文与在研工作。</p></div>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <!-- Paper 1: AAAI 2026 (Highlighted) -->
+          <tr onmouseout="verb_stop()" onmouseover="verb_start()" bgcolor="#ffffd0"> 
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/verb-mirage.jpg' width="200" style="border-radius:5px; border:1px solid #ddd">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <div class="lang-en">
+                  <papertitle>Verb Mirage: Unveiling and Assessing Verb Concept Hallucinations in MLLMs</papertitle>
+                </a>
+                <br>
+                Zehao Wang, Xinpeng Liu, Yudonglin Zhang, Xiaoqian Wu, Zhou Fang, Yifan Fang, Junfu Pu, Cewu Lu&dagger; , Yong-Lu Li&dagger;
+                <br>
+                <em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2026
+                <br>
+                <a href="https://arxiv.org/abs/2412.04939">[Paper]</a> 
+                <div class="project-desc">
+                  <ul>
+                    In this paper, to the best of our knowledge, we are the first to investigate the phenomenon verb-hallucination phrnomenon of MLLMs from various perspectives. Our findings reveal that most state-of-the-art MLLMs suffer from severe verb hallucination. To assess the effectiveness of existing mitigation methods for object concept hallucination on verb hallucination, we evaluated these methods and found that they do not effectively address verb hallucination. To address this issue, we propose a novel rich verb knowledge-based tuning method to mitigate verb hallucination. The experiment results demonstrate that our method significantly reduces hallucinations related to verbs.
+                  </ul>
+                </div>
+              </div>
+              <div class="lang-cn">
+                <a href="#">
+                  <papertitle>Verb Mirage: Unveiling and Assessing Verb Concept Hallucinations in MLLMs</papertitle>
+                </a>
+                <br>
+                Zehao Wang, Xinpeng Liu, Yudonglin Zhang, Xiaoqian Wu, Zhou Fang, Yifan Fang, Junfu Pu, Cewu Lu&dagger; , Yong-Lu Li&dagger;
+                <br>
+                <em>AAAI 2026 (CCF-A) 录用论文</em>
+                <br>
+                <a href="https://arxiv.org/abs/2412.04939">[论文]</a> 
+                <div class="project-desc">
+                  <ul>
+                    <li>参与构建了首个动词细粒度幻觉评测基准。</li>
+                    <li>设计了自动化评估流程，在 LLaVA, Qwen-VL 等模型上揭示了动词幻觉不同于物体幻觉的特征。</li>
+                    <li>提出了基于动词理解数据集的专项微调方案，验证了其有效性。</li>
+                  </ul>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Paper 2: TPAMI (Work in Progress) -->
+          <tr onmouseout="pangea_stop()" onmouseover="pangea_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/pangea.jpg' width="200" style="border-radius:5px; border:1px solid #ddd">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <div class="lang-en">
+                <papertitle>From Isolated Islands to Pangea: Unifying Semantic Space for Action Understanding</papertitle>
+                <span class="tag">Work in Progress</span>
+                <br>
+                <em>Manuscript in preparation (Aimed for IEEE TPAMI)</em>
+                <br>
+                <div class="project-desc">
+                  <ul>
+                    In this paper, we design a structured action semantic space given verb taxonomy hierarchy and covering massive actions. By aligning the classes of previous datasets to our semantic space, we gather (image/video/skeleton/MoCap) datasets into a unified database in a unified label system, i.e., bridging "isolated islands" into a "Pangea". Accordingly, we propose a novel model mapping from the physical space to semantic space to fully use Pangea. In extensive experiments, our new system shows significant superiority, especially in transfer learning. 
+                  </ul>
+                </div>
+              </div>
+              <div class="lang-cn">
+                <papertitle>From Isolated Islands to Pangea: Unifying Semantic Space for Action Understanding</papertitle>
+                <span class="tag">进行中工作</span>
+                <br>
+                <em>拟投递 IEEE TPAMI</em>
+                <br>
+                <div class="project-desc">
+                  <ul>
+                    <li>针对动作理解任务中标签语义不统一的问题。</li>
+                    <li>利用 LLM 提出 Training-free 映射算法，构建统一语义空间，对齐各类数据集。</li>
+                    <li>引入 MLLM 作为新评估指标，并验证了该空间在下游生成任务中的通用性。</li>
+                  </ul>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <!-- ================= Selected Projects (重点项目) ================= -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <div class="lang-en"><heading>Selected Projects</heading></div>
+              <div class="lang-cn"><heading>复现与优化项目</heading></div>
+              <div class="lang-en"><p>Focusing on reproduction and optimization of state-of-the-art algorithms.</p></div>
+              <div class="lang-cn"><p>专注于前沿算法的复现与优化改进。</p></div>
+            </td>
+          </tr>
+        </tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <!-- Project 1: XAI (可解释性复现) -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+               <img src='images/mllm_xai.jpg' width="200" style="border-radius:5px;">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <div class="lang-en">
+                <papertitle>Multimodal Model Interpretability Research (XAI)</papertitle>
+                <div class="project-desc">
+                  Reproduced <em>Understanding Black-box Predictions via Influence Functions</em> (ICML).
+                  <ul>
+                    <li><strong>Algorithm Transplantation:</strong> Adapted Influence Functions from LLMs to MLLMs.</li>
+                    <li><strong>Optimization:</strong> Solved high-dimensional parameter computation challenges introduced by ViT, enabling training data attribution for MLLMs.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lang-cn">
+                <papertitle>多模态模型可解释性研究 (XAI)</papertitle>
+                <div class="project-desc">
+                  复现 ICML 经典论文，研究模型黑盒预测机制。
+                  <ul>
+                    <li><strong>算法移植:</strong> 将原仅适用于 LLM 的影响函数方法，成功移植适配至 MLLM。</li>
+                    <li><strong>计算优化:</strong> 解决了 ViT 引入的高维参数计算难题，实现了对 MLLM 输出结果的训练数据归因分析。</li>
+                  </ul>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Project 2: MM-Agent (智能体复现) -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+               <img src='images/agent.jpg' width="200" style="border-radius:5px;">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <div class="lang-en">
+                <papertitle>MM-Agent: Local Deployment for Math Modeling</papertitle>
+                <div class="project-desc">
+                  Reproduced <em>MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem</em> (NeurIPS)
+                  <ul>
+                    <li><strong>Localization:</strong> Adapted the framework to open-source models (Qwen2.5/Llama3) to replace closed-source APIs, ensuring data privacy.</li>
+                    <li><strong>Optimization:</strong> Optimized prompt structures and tool calls for single/multi-GPU offline environments.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lang-cn">
+                <papertitle>MM-Agent: 数学建模智能体本地化部署</papertitle>
+                <div class="project-desc">
+                  复现 MM-Agent 框架。
+                  <ul>
+                    <li><strong>本地化适配:</strong> 将框架适配至 Qwen2.5, Llama3 等开源模型，解决闭源 API 成本与隐私问题。</li>
+                    <li><strong>性能优化:</strong> 优化 Prompt 结构与工具调用，实现单卡/多卡环境下的全流程本地离线部署。</li>
+                  </ul>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Project 3: CV Refactoring (算法重构) -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+               <img src='images/fusion.jpg' width="200" style="border-radius:5px;">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <div class="lang-en">
+                <papertitle>Computer Vision Algorithm Refactoring</papertitle>
+                <div class="project-desc">
+                  <ul>
+                    <li>Refactored legacy TensorFlow/Caffe code (FusionDN/U2Fusion) into modern <strong>PyTorch</strong> implementations.</li>
+                    <li>Expanded training datasets and introduced new loss functions, surpassing original paper performance metrics.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lang-cn">
+                <papertitle>计算机视觉算法重构与优化</papertitle>
+                <div class="project-desc">
+                  <ul>
+                    <li>将 FusionDN 及 U2Fusion 的老旧 TensorFlow/Caffe 代码重构为现代化的 <strong>PyTorch</strong> 实现。</li>
+                    <li>通过扩充训练数据集与引入新的损失函数，复现并超越了原论文报告的融合性能指标。</li>
+                  </ul>
+                </div>
+              </div>
+            </td>
+          </tr>
+          
+        </tbody></table>
+
+        <!-- ================= Awards (获奖) ================= -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <div class="lang-en"><heading>Honors & Awards</heading></div>
+              <div class="lang-cn"><heading>荣誉与奖项</heading></div>
+              
+              <div class="lang-en">
+                <ul>
+                  <li><strong>Second Prize</strong>, National College Student Mathematical Modeling Competition (Team Leader), 2025.</li>
+                  <li><strong>Third Prize</strong>, National College Student Mathematical Modeling Competition (Team Leader), 2024.</li>
+                  <li>Multiple Top Rankings in <strong>Kaggle</strong> Competitions.</li>
+                </ul>
+              </div>
+              <div class="lang-cn">
+                <ul>
+                  <li><strong>二等奖</strong>, 全国大学生数学建模竞赛 (队长, 负责编程与建模), 2025.</li>
+                  <li><strong>三等奖</strong>, 全国大学生数学建模竞赛 (队长, 负责编程与建模), 2024.</li>
+                  <li>多次在 <strong>Kaggle</strong> 竞赛中获得 Top 排名; 青少年时期多次获NOIP，CSP-S等 算法竞赛奖项.</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <!-- ================= Skills (技能) ================= -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <div class="lang-en"><heading>Skills</heading></div>
+              <div class="lang-cn"><heading>专业技能</heading></div>
+              
+              <div class="lang-en">
+                <p><strong>Programming:</strong> Python (Proficient), C++ (Skilled), R.</p>
+                <p><strong>Frameworks:</strong> PyTorch, TensorFlow, Transformers, ModelScope (Swift), LLaMA-Factory.</p>
+                <p><strong>Tools:</strong> Linux, Docker, Git, CUDA.</p>
+                <p><strong>Languages:</strong> English (CET6 640), Chinese (Native).</p>
+              </div>
+              <div class="lang-cn">
+                <p><strong>编程语言:</strong> Python (精通), C++ (熟练), R.</p>
+                <p><strong>深度学习框架:</strong> PyTorch, TensorFlow, HuggingFace Transformers, ModelScope (Swift).</p>
+                <p><strong>开发工具:</strong> Linux, Docker, Git, Nvidia CUDA.</p>
+                <p><strong>语言能力:</strong> 英语 (CET6 640分, 具备流利的学术写作与口语能力), 中文 (母语).</p>
+              </div>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <!-- ================= Footer (页脚) ================= -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <div class="lang-en" style="text-align:right;font-size:small;">
+                  Design and source code from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+                </div>
+                <div class="lang-cn" style="text-align:right;font-size:small;">
+                  网页模版来自 <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+                </div>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+      </td>
+    </tr>
+  </table>
+<!--
+  <script>
+    function toggleLanguage() {
+      var enElements = document.getElementsByClassName('lang-en');
+      var cnElements = document.getElementsByClassName('lang-cn');
+      var btn = document.getElementById('lang-switch');
+      var isEn = enElements[0].style.display !== 'none';
+
+      if (isEn) {
+        for (var i = 0; i < enElements.length; i++) enElements[i].style.display = 'none';
+        for (var i = 0; i < cnElements.length; i++) cnElements[i].style.display = 'block';
+        btn.innerHTML = "Switch to English";
+      } else {
+        for (var i = 0; i < enElements.length; i++) enElements[i].style.display = 'block';
+        for (var i = 0; i < cnElements.length; i++) cnElements[i].style.display = 'none';
+        btn.innerHTML = "Switch to 中文";
+      }
+    }
+  </script>
+  -->
+</body>
+</html>
